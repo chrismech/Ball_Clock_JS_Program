@@ -89,8 +89,6 @@ function queue(numberOfBalls, minutesToRun) {
 		return;
 	}
 
-	console.log("Starting mainTray contents: " + mainTray);
-
 	while(!completeRotation && !finishedMinutes) {
 		
 		loadMinuteTray(mainTray.shift());
